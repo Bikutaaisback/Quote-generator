@@ -10,6 +10,8 @@
 }
 body{
     background: #bbc6fa;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .quote-box{
     background: #fff;
@@ -92,4 +94,19 @@ body{
 .quote-box button:nth-child(2){
     background: transparent;
     color: #333;
+}
+@media (max-width: 600px) {
+    .quote-box {
+        padding: 20px; 
+    }
+    .quote-box h2 {
+        font-size: 24px; 
+    }
+    .quote-box blockquote {
+        font-size: 20px; 
+    }
+    .quote-box button {
+        width: 120px; 
+        height: 40px;
+    }
 }
