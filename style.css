@@ -13,7 +13,8 @@ body{
 }
 .quote-box{
     background: #fff;
-    width: 700px;
+    width: 90%;
+    max-width: 700px;
     position: absolute;
     top: 50%;
     left: 50%;
